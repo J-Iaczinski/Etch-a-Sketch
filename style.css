@@ -1,0 +1,79 @@
+/* Style Reset  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+
+footer {
+  color: rgb(83, 57, 21);
+  text-align: center;
+  margin: 0% 0%;
+}
+
+h1 {
+  color: rgb(83, 57, 21);
+  font-weight: bolder;
+  text-align: center;
+  margin: 2% 0% 0%;
+}
+
+.main-container {
+  margin: 9% 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+
+.columm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.grid {
+  border: 0.0001em solid rgba(0, 0, 0, 0.251);
+  background-color: white;
+}
+
+.menu {
+  border: 2px solid rgb(83, 57, 21);
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  min-width: 100px;
+  margin-right: 2%;
+  border-radius: 5px;
+  gap: 20%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.btn {
+  min-width: 80px;
+  background-color: rgb(210, 126, 16);
+  min-height: 30px;
+  border-radius: 5px;
+  color: rgb(83, 57, 21);
+  font-weight: bold;
+}
+
+#picker {
+  min-width: 80px;
+  min-height: 30px;
+}
